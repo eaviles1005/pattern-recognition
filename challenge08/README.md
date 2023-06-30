@@ -53,7 +53,7 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 
 ### 2. Diagrama de flujo del trabajo
 
-![Diagrama de Flujo](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/89091e24-3bd6-4ed1-ab02-615a6af7f49a/Diagrama_de_Flujo.png)
+![Diagrama de Flujo](https://lh4.googleusercontent.com/2-0iZuF_Fas7zQI6u9iwnoqi-vCsZW3H37zzSQSM_kOqxQ53OnhML0hg3yGPvlcW_OgbtFIsrqbVnznWIdvDQdTFsYtJYgmX5zJo9nz6xTJubCtnWNWvnGlEQRJKAdNWUDh69Z-nWGDVsLNW9dVoTh4)
 
 Referencias:
 [1] Pascanu, R., Mikolov, T., & Bengio, Y. (2012). On the difficulty of training Recurrent Neural Networks. *ArXiv*. /abs/1211.5063
