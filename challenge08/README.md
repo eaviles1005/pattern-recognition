@@ -1,6 +1,6 @@
 ### 1. Arquitectura y funcionamiento de LSTM
 
-La arquitectura LSTM (Long Short-Term Memory) es un tipo especial de red neuronal recurrente (RNN) diseñada para abordar el problema de la desaparición del gradiente, que es común en las RNN tradicionales [[1](https://www.notion.so/Challenge-08-6c0a384179b649eeb53f984c955a2866?pvs=21)]. Esto supone una dificultad para que las RNN aprendan dependencias a largo plazo en los datos. Para comprender el concepto de LSTM, es necesario entender qué son las redes neuronales recurrentes y cómo funcionan.
+La arquitectura LSTM (Long Short-Term Memory) es un tipo especial de red neuronal recurrente (RNN) diseñada para abordar el problema de la desaparición del gradiente, que es común en las RNN tradicionales [1]. Esto supone una dificultad para que las RNN aprendan dependencias a largo plazo en los datos. Para comprender el concepto de LSTM, es necesario entender qué son las redes neuronales recurrentes y cómo funcionan.
 
 La RNN se basa en el seguimiento secuencial de la información. Por lo tanto, su salida se calcula en función de los cálculos previos. También se pueden considerar como una memoria que recopila y almacena información sobre los cálculos realizados hasta el momento. La RNN puede retroceder algunos pasos para utilizar información previa en los hallazgos actuales [2].
 
@@ -14,7 +14,7 @@ Si bien la red LSTM es una forma de RNN, difiere de otras redes en su estructura
 
 Los componentes principales de una red neuronal de LSTM son una capa de entrada de secuencias y una capa de LSTM. Una capa de entrada de secuencias introduce datos secuenciales o de series de tiempo en la red neuronal. Una capa de LSTM aprende las dependencias a largo plazo entre las unidades de tiempo de los datos secuenciales.
 
-https://lh5.googleusercontent.com/NZuCNOswDdlb0qyw-1kmfblIvjXK_4JQWgxaL50TOmaZuZlEUQUPZL8-SauOg8AaIOY6cu38vULSTfe4YCUxcw6kAuy11x0ROGlPf9RwPnfPQr3aMxcgLdZUPFqpLh0QqNn-k0enhgQusJt_Ze5g0w4
+!(Arquitectura)[https://lh5.googleusercontent.com/NZuCNOswDdlb0qyw-1kmfblIvjXK_4JQWgxaL50TOmaZuZlEUQUPZL8-SauOg8AaIOY6cu38vULSTfe4YCUxcw6kAuy11x0ROGlPf9RwPnfPQr3aMxcgLdZUPFqpLh0QqNn-k0enhgQusJt_Ze5g0w4]
 
 La arquitectura de una LSTM se compone de unidades de memoria llamadas "celdas de memoria" (memory cells) que interactúan entre sí. Cada celda de memoria tiene tres componentes principales: una entrada, una salida y una puerta de olvido (forget gate) [5].
 
