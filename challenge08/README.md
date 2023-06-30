@@ -14,7 +14,7 @@ Si bien la red LSTM es una forma de RNN, difiere de otras redes en su estructura
 
 Los componentes principales de una red neuronal de LSTM son una capa de entrada de secuencias y una capa de LSTM. Una capa de entrada de secuencias introduce datos secuenciales o de series de tiempo en la red neuronal. Una capa de LSTM aprende las dependencias a largo plazo entre las unidades de tiempo de los datos secuenciales.
 
-!(Arquitectura)[https://lh5.googleusercontent.com/NZuCNOswDdlb0qyw-1kmfblIvjXK_4JQWgxaL50TOmaZuZlEUQUPZL8-SauOg8AaIOY6cu38vULSTfe4YCUxcw6kAuy11x0ROGlPf9RwPnfPQr3aMxcgLdZUPFqpLh0QqNn-k0enhgQusJt_Ze5g0w4]
+![Arquitectura](https://lh5.googleusercontent.com/NZuCNOswDdlb0qyw-1kmfblIvjXK_4JQWgxaL50TOmaZuZlEUQUPZL8-SauOg8AaIOY6cu38vULSTfe4YCUxcw6kAuy11x0ROGlPf9RwPnfPQr3aMxcgLdZUPFqpLh0QqNn-k0enhgQusJt_Ze5g0w4)
 
 La arquitectura de una LSTM se compone de unidades de memoria llamadas "celdas de memoria" (memory cells) que interactúan entre sí. Cada celda de memoria tiene tres componentes principales: una entrada, una salida y una puerta de olvido (forget gate) [5].
 
