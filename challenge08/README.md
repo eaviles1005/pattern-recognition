@@ -50,3 +50,19 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 4. **Transformers:** Son una arquitectura de red neuronal que utiliza mecanismos de atención para así obtener una mayor eficiencia del procesamiento de secuencias de datos. Los transformers han demostrado ser bastante efectivos en tareas relacionadas al procesamiento del lenguaje natural, como la traducción automática y la generación de texto [10].
 5. **Autoencoders:** Los autoencoders son redes neuronales que se utilizan para la compresión y descompresión de datos. Estos están compuestos por dos partes: un codificador que comprime los datos de entrada en una representación de menor dimensionalidad, y un decodificador que reconstruye los datos a partir de esta representación comprimida [10].
 6. **Redes Neuronales de Retroalimentación (FNN):** Estas redes permiten que las señales fluyan en ambas direcciones mediante el uso de bucles de retroalimentación. Esto les permite mantener una “memoria” de las entradas anteriores, lo que puede ser útil para tareas que requieren tener en consideración el contexto o la historia de los datos [9].
+
+### 2. Diagrama de flujo del trabajo
+
+![Diagrama de flujo](https://file.notion.so/f/s/89091e24-3bd6-4ed1-ab02-615a6af7f49a/Diagrama_de_Flujo.png?id=aefbd067-e45b-465f-b9fa-dbecc79b9961&table=block&spaceId=545b2dce-99ee-4ea5-917a-d1c73f67cd94&expirationTimestamp=1688256000000&signature=CEvUj4ivZvTdl1VLBc1s-KnmQlMiP8uzYGqeFWYPvEY&downloadName=Diagrama+de+Flujo.png)
+
+Referencias:
+[1] Pascanu, R., Mikolov, T., & Bengio, Y. (2012). On the difficulty of training Recurrent Neural Networks. *ArXiv*. /abs/1211.5063
+[2] Graves, A., Fernández, S., Schmidhuber, J. (2005). Bidirectional LSTM Networks for Improved Phoneme Classification and Recognition. In: Duch, W., Kacprzyk, J., Oja, E., Zadrożny, S. (eds) Artificial Neural Networks: Formal Models and Their Applications – ICANN 2005. ICANN 2005. Lecture Notes in Computer Science, vol 3697. Springer, Berlin, Heidelberg. https://doi.org/10.1007/11550907_126
+[3] A. Graves and J. Schmidhuber, "Framewise phoneme classification with bidirectional LSTM networks," Proceedings. 2005 IEEE International Joint Conference on Neural Networks, 2005., Montreal, QC, Canada, 2005, pp. 2047-2052 vol. 4, doi: 10.1109/IJCNN.2005.1556215.
+[4] R. Zhao, J. Wang, R. Yan and K. Mao, "Machine health monitoring with LSTM networks," 2016 10th International Conference on Sensing Technology (ICST), Nanjing, China, 2016, pp. 1-6, doi: 10.1109/ICSensT.2016.7796266.
+[5] "Understanding LSTM Networks -- colah's blog." Home - colah's blog. http://colah.github.io/posts/2015-08-Understanding-LSTMs/ (accessed Jun. 20, 2023).
+[6] "Introduction to the Concept of LSTM — Machine Learning — DATA SCIENCE." DATA SCIENCE. https://datascience.eu/machine-learning/understanding-lstm-networks/ (accessed Jun. 20, 2023).
+[7] van Deursen R, Ertl P, Tetko IV, Godin G. GEN: highly efficient SMILES explorer using autodidactic generative examination networks. J Cheminform. 2020 Apr 10;12(1):22. doi: 10.1186/s13321-020-00425-8. PMID: 33430998; PMCID: PMC7146994.
+[8] Z. Li, F. Liu, W. Yang, S. Peng and J. Zhou, "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects," in IEEE Transactions on Neural Networks and Learning Systems, vol. 33, no. 12, pp. 6999-7019, Dec. 2022, doi: 10.1109/TNNLS.2021.3084827.
+[9] M. L. R and J. L. C, Eds., Recurrent Neural Networks: Design and Applications. Boca Raton, Fla: CRC Press, 2000.
+[10] GROSSBERG, Stephen. Recurrent neural networks. Scholarpedia, 2013, vol. 8, no 2, p. 1888.
