@@ -81,7 +81,7 @@ Los notebooks mencionados previamente son todos los que se utilizaron para el pr
 
 Los resultados obtenidos no cuentan con mejores puntuaciones que las moléculas presentadas en el trabajo original, una causa de esto puede ser la cantidad de moléculas generadas en la primera generación de moléculas. Por motivos de tiempo de ejecución, se tuvo que reducir la cantidad de moléculas generadas a una quinta parte de la original (solo se generaron 5 moléculas por semilla y no 25 como lo plantea el trabajo original). De esta forma, se pierden algunas moléculas que podrían tener mejores puntuaciones de acoplamiento.
 
-Por otro lado, se observa que el Transfer Learning permitió enfocar mejor la generación de moléculas, pues en esta segunda generación se obtuvo un total de 14 moléculas con una energía de Gibbs menor a -9.0 a comparación de las 3 obtenidas en la primera generación de moléculas, lo que demuestra la capacidad de las redes neuronales recurrentes para enfocar la generación de moléculas a la tarea específica.
+Por otro lado, se observa que el Transfer Learning permitió enfocar mejor la generación de moléculas, pues en esta segunda generación se obtuvo un total de 14 moléculas con una energía de Gibbs menor a -9.0 a comparación de las 5 obtenidas en la primera generación de moléculas, lo que demuestra la capacidad de las redes neuronales recurrentes para enfocar la generación de moléculas a la tarea específica.
 
 Referencias:
 
