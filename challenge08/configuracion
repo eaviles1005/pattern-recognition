@@ -1,0 +1,23 @@
+#Archivo de configuracion 
+
+#Opciones de entrada 
+receptor = 6W63_sin_ligando.pdbqt 
+#flex = [residuos flexibles en el receptor en formato pdbqt] 
+#Configuracion del espacio de búsqueda 
+#Tamaño de la caja: bxf, byf, bzf) 
+size_x = 25 
+size_y = 25 
+size_z = 25 
+#Centro de la caja: bxi, byi, bzi 
+center_x = -19.313 
+center_y = 18.321 
+center_z = -27.425 
+#Opciones de Salida 
+#log = 
+
+#Otras opciones 
+#cpu = 8 
+exhaustiveness = 8 
+num_modes = 1 
+#energy_range = 
+#seed = 
