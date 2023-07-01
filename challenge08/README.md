@@ -53,7 +53,7 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 
 ### 2. Diagrama de flujo del trabajo
 
-![Diagrama de Flujo](https://lh4.googleusercontent.com/2-0iZuF_Fas7zQI6u9iwnoqi-vCsZW3H37zzSQSM_kOqxQ53OnhML0hg3yGPvlcW_OgbtFIsrqbVnznWIdvDQdTFsYtJYgmX5zJo9nz6xTJubCtnWNWvnGlEQRJKAdNWUDh69Z-nWGDVsLNW9dVoTh4)
+![Diagrama de Flujo](https://github.com/eaviles1005/pattern-recognition/blob/main/challenge08/images/flow_diagram.png)
 
 Referencias:
 
