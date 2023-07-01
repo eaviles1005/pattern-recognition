@@ -56,6 +56,7 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 ![Diagrama de Flujo](https://lh4.googleusercontent.com/2-0iZuF_Fas7zQI6u9iwnoqi-vCsZW3H37zzSQSM_kOqxQ53OnhML0hg3yGPvlcW_OgbtFIsrqbVnznWIdvDQdTFsYtJYgmX5zJo9nz6xTJubCtnWNWvnGlEQRJKAdNWUDh69Z-nWGDVsLNW9dVoTh4)
 
 Referencias:
+
 [1] Pascanu, R., Mikolov, T., & Bengio, Y. (2012). On the difficulty of training Recurrent Neural Networks. *ArXiv*. /abs/1211.5063
 
 [2] Graves, A., Fernández, S., Schmidhuber, J. (2005). Bidirectional LSTM Networks for Improved Phoneme Classification and Recognition. In: Duch, W., Kacprzyk, J., Oja, E., Zadrożny, S. (eds) Artificial Neural Networks: Formal Models and Their Applications – ICANN 2005. ICANN 2005. Lecture Notes in Computer Science, vol 3697. Springer, Berlin, Heidelberg. https://doi.org/10.1007/11550907_126
