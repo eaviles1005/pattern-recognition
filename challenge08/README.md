@@ -55,6 +55,8 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 
 ![Diagrama de Flujo](https://github.com/eaviles1005/pattern-recognition/blob/main/challenge08/images/flow_diagram.png)
 
+**Nota**: este link de [Google Colab](https://colab.research.google.com/drive/1npv0oWr2eG5ssjaEdgc9Ub-BtUtvpllM?usp=sharing) contiene el archivo `challenge08.ipynb` en caso no se pudea observar desde GitHub al ser un archivo com muchas líneas de salida.
+
 ### 3. Dataset
 
 El análisis exploratorio del dataset se encuentra en el notebook llamado `challenge08.ipynb`. Este consistió en el tratamiento del dataset para que sea compatible con la arquitectura LSTM además de una visualización de algunas muestras.
