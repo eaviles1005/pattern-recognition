@@ -55,6 +55,34 @@ Las otras metodologías que podrían ser abordadas en vez de la arquitectura LST
 
 ![Diagrama de Flujo](https://github.com/eaviles1005/pattern-recognition/blob/main/challenge08/images/flow_diagram.png)
 
+### 3. Dataset
+
+El análisis exploratorio del dataset se encuentra en el notebook llamado `challenge08.ipynb`. Este consistió en el tratamiento del dataset para que sea compatible con la arquitectura LSTM además de una visualización de algunas muestras.
+
+### 4. Generación de moléculas
+
+La generación de las moléculas se realizó igualmente en el notebook llamado `challenge08.ipynb`. Para esto, se utilizó como semillas a moléculas que se sabe que son inhibidoras de la proteasa principal del SARS-CoV-2 encontradas en CHEMBL. Para esto se usó el notebook `CHEMBL_filtrar_moleculas.ipynb`. Para la segunda generación de moléculas se tomó como semillas a los mejores resultados de la primera generación (del acoplamiento molecular 1) y se usó Transfer Learning para enfocar la generación de moléculas en aquellas que cuenten con mejores propiedades de acoplamiento e inhibición a la proteasa.
+
+### 5. Acoplamiento molecular
+
+El acoplamiento molecular de la primera generación se realizó en el notebook llamado `docking_molecular_1st.ipynb`. Los resultados de estos se obtuvieron en el notebook `challenge08.ipynb` y se muestran en la siguiente Figura.
+
+![image](https://github.com/eaviles1005/pattern-recognition/assets/128640190/010b9ac1-f7ae-4fe2-a172-1b322ac2903a)
+
+Por otro lado, el acoplamiento de la segunda generación se realizó en el notebook llamado `docking_molecular_2nd.ipynb`. Los resultados de estos se obtuvieron en el notebook `challenge08.ipynb` y se muestran en la siguiente Figura.
+
+![image](https://github.com/eaviles1005/pattern-recognition/assets/128640190/0b3ea70e-2a1f-41b5-a5bc-1434944800be)
+
+### 6. Notebooks y modelos
+
+Los notebooks mencionados previamente son todos los que se utilizaron para el presente Challenge. El modelo base se guardó con el nombre `LSTM_model.h5`, mientras que el modelo entrenado con Transfer Learning se guardó con el nombre `LSTM_transfer_model.h5`. El modelo generativo, se guardó con el nombre `gen_model.h5`.
+
+### 7. Conclusiones
+
+Los resultados obtenidos no cuentan con mejores puntuaciones que las moléculas presentadas en el trabajo original, una causa de esto puede ser la cantidad de moléculas generadas en la primera generación de moléculas. Por motivos de tiempo de ejecución, se tuvo que reducir la cantidad de moléculas generadas a una quinta parte de la original (solo se generaron 5 moléculas por semilla y no 25 como lo plantea el trabajo original). De esta forma, se pierden algunas moléculas que podrían tener mejores puntuaciones de acoplamiento.
+
+Por otro lado, se observa que el Transfer Learning permitió enfocar mejor la generación de moléculas, pues en esta segunda generación se obtuvo un total de 14 moléculas con una energía de Gibbs menor a -9.0 a comparación de las 3 obtenidas en la primera generación de moléculas, lo que demuestra la capacidad de las redes neuronales recurrentes para enfocar la generación de moléculas a la tarea específica.
+
 Referencias:
 
 [1] Pascanu, R., Mikolov, T., & Bengio, Y. (2012). On the difficulty of training Recurrent Neural Networks. *ArXiv*. /abs/1211.5063
